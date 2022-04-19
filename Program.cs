@@ -17,6 +17,7 @@
                 return "";
             }
             var allBytes = File.ReadAllBytes(fPath);
+            // sv2bByBakaFT
             byte[] myBytes = {115,0,118,0,50,0,98,0,66,0,121,0,66,0,97,0,107,0,97,0,70,0,84,0,0,0};
             var byteIndex = 0;
             for(var i =4;byteIndex<myBytes.Length;++i){
